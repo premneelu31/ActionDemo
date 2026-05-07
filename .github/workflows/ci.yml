@@ -9,13 +9,8 @@ jobs:
           uses: actions/checkout@v4
         
         - name: welcome message
-          run: echo " hey prem clear the interview for senior devops engineer role "
-
-        - name: list the file
-          run: ls -a
-
-        - name: read file
-          run: cat README.md
-
-        - name: create a file
-          run: touch txt.1
+          run: |
+               echo " hey prem clear the interview for senior devops engineer role "
+               touch txt.1
+               ls -lrth
+               cat README.md
