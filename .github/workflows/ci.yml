@@ -16,3 +16,6 @@ jobs:
 
         - name: read file
           run: cat README.md
+
+        - name: create a file
+          run: touch txt.1
