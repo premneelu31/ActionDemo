@@ -1,0 +1,6 @@
+- name: this is my githubaction
+
+
+on: push
+
+jobs:
