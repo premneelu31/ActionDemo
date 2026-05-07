@@ -1,6 +1,12 @@
-- name: this is my githubaction
-
-
+name: this is my githubaction
 on: push
 
 jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: welcome message
+          run: echo " hey prem clear the interview for senior devops engineer role "
+
+        - name: list files
+          run: cat README.md
