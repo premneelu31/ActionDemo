@@ -14,4 +14,4 @@ jobs:
                touch txt.1
                ls -ltra
                cat README.md
-               mkdr prem
+               mkdir prem
