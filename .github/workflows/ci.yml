@@ -12,5 +12,5 @@ jobs:
           run: |
                echo " hey prem clear the interview for senior devops engineer role "
                touch txt.1
-               ls -lrth
+               ls -ltra
                cat README.md
