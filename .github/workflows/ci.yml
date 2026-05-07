@@ -15,4 +15,4 @@ jobs:
                touch prem/txt.1
                ls -ltra
                cat README.md
-               cd ls prem
+               cd prem && ls
